@@ -35,16 +35,6 @@
 			path = "to-do-list-swift-1.0v.git";
 			sourceTree = "<group>";
 		};
-		0B0465A72CD0593F004C29C2 /* to-do-list-swift-1.0v.gitTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "to-do-list-swift-1.0v.gitTests";
-			sourceTree = "<group>";
-		};
-		0B0465B12CD0593F004C29C2 /* to-do-list-swift-1.0v.gitUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "to-do-list-swift-1.0v.gitUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				0B0465962CD0593C004C29C2 /* to-do-list-swift-1.0v.git */,
-				0B0465A72CD0593F004C29C2 /* to-do-list-swift-1.0v.gitTests */,
-				0B0465B12CD0593F004C29C2 /* to-do-list-swift-1.0v.gitUITests */,
 				0B0465952CD0593C004C29C2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				0B0465A62CD0593F004C29C2 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				0B0465A72CD0593F004C29C2 /* to-do-list-swift-1.0v.gitTests */,
-			);
 			name = "to-do-list-swift-1.0v.gitTests";
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				0B0465B02CD0593F004C29C2 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				0B0465B12CD0593F004C29C2 /* to-do-list-swift-1.0v.gitUITests */,
 			);
 			name = "to-do-list-swift-1.0v.gitUITests";
 			packageProductDependencies = (
@@ -396,6 +378,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"to-do-list-swift-1.0v.git/Preview Content\"";
+				DEVELOPMENT_TEAM = 6V5N974UUL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -424,6 +407,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"to-do-list-swift-1.0v.git/Preview Content\"";
+				DEVELOPMENT_TEAM = 6V5N974UUL;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
